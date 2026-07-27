@@ -1,0 +1,6 @@
+{
+  "controls": [
+    { "type": "slider", "key": "glow", "label": "Glow", "min": 0, "max": 1, "step": 0.01, "default": 0.5 },
+    { "type": "slider", "key": "vignette", "label": "Vignette", "min": 0, "max": 1, "step": 0.01, "default": 0.4 }
+  ]
+}

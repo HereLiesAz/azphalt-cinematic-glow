@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.cinematic-glow",
+  "name": "Cinematic Glow",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Filmic contrast, a soft highlight glow, a warm/cool split tone, and a gentle vignette — the single most-used AI video effect, done as one on-device pass.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/cinematic-glow.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "stylize", "cinematic", "bloom", "grade", "one-click"]
+    }
+  ]
+}
